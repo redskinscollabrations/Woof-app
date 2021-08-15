@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Select Me</string>
+    <string name="txt_SelectMe">Select Me</string>
+    <string name="txt_menutype">"Hi...! Please select my menu type "</string>
+    <string name="btn_Woofy">Woofy</string>
+    <string name="btn_Meow">Meow</string>
+    <string name="txt_Toolbar_SelectMe">Select Me</string>
+</resources>
