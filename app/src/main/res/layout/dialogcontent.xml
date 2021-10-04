@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#8061B6"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/etxt_vetname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="Vet Name"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etxt_vettype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:hint="Vet Type"
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:id="@+id/etxt_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:hint="Address"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etxt_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:hint="City"
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:id="@+id/etxt_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:hint="Mobile"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/usubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="10dp"
+        android:background="#754EBC"
+        android:text="Update"
+        android:backgroundTint="@color/dark_purple"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        app:cornerRadius="15dp" />
+
+
+</LinearLayout>
