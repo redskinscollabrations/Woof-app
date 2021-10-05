@@ -1,8 +1,10 @@
-package com.example.selectme;
+package com.example.newproject;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,4 +13,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
+    public void startSecond(View view){
+
+        startActivity(new Intent(MainActivity.this,Dashboard.class));
+    }
+
 }
