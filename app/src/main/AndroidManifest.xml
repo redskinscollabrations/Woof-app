@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.woof_app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Woof"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Woof_App">
+        <activity
+            android:name=".UpdateMenu"
+            android:exported="true"
+            android:label="Update Menu"
+            android:parentActivityName=".MainView"/>
+        <activity
+            android:name=".my_row"
+            android:exported="true" />
+        <activity
+            android:name=".AddMenu"
+            android:exported="true"
+            android:label="Add Menu"
+            android:parentActivityName=".MainView" />
+        <activity
+            android:name=".FeedMe"
+            android:exported="true"
+            android:label="FeedMe" />
+        <activity
+            android:name=".MainView"
+            android:exported="true"
+            android:label="View Meals"
+            android:parentActivityName=".FeedMe" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
